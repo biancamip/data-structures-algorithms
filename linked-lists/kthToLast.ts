@@ -1,6 +1,6 @@
 // IQ 2.2
 
-import { LinkedList } from ".";
+import { LinkedList } from "./classDefinition";
 
 function kthToLast(list: LinkedList, k: number): number[] {
   let index = 0;

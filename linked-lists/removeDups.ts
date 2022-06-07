@@ -1,6 +1,6 @@
 // IQ 2.1
 
-import { LinkedList } from ".";
+import { LinkedList } from "./classDefinition";
 
 function removeDups(list: LinkedList) {
   return;
