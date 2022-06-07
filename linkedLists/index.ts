@@ -50,7 +50,11 @@ class LinkedList {
     }
   }
 
-  // generate string from linked list in a friendlier way for better visualization purposes
+  isEmpty() {
+    return this.head === null;
+  }
+
+  // generate string from linked list in a friendlier way for better visualization
   toString(): string {
     let nodesData: number[] = [];
 
