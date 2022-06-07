@@ -1,8 +1,7 @@
 {
-  "name": "ctci-prep",
+  "name": "linked-lists",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:biancamip/ctci-prep.git",
   "author": "Bianca Pelegrini <bmpelegrini@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -10,7 +9,6 @@
     "typescript": "^4.7.3"
   },
   "scripts": {
-    "start": "yarn ts-node index.ts",
-    "build": "yarn tsc"
+    "start": "yarn ts-node index.ts"
   }
 }
