@@ -1,6 +1,6 @@
 // pg 92
 
-class ListNode {
+export class ListNode {
   data: number;
   next: ListNode | null = null;
 
@@ -9,7 +9,7 @@ class ListNode {
   }
 }
 
-class LinkedList {
+export class LinkedList {
   // if head is null, list is empty
   head: ListNode | null;
 
