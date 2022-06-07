@@ -1,7 +1,6 @@
 {
   "name": "linked-lists",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Bianca Pelegrini <bmpelegrini@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -9,6 +8,7 @@
     "typescript": "^4.7.3"
   },
   "scripts": {
-    "start": "yarn ts-node index.ts"
+    "start": "yarn ts-node index.ts",
+    "start:file": "yarn ts-node"
   }
 }

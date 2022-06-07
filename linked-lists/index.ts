@@ -13,8 +13,12 @@ export class LinkedList {
   // if head is null, list is empty
   head: ListNode | null;
 
-  constructor(data: number) {
-    this.head = new ListNode(data);
+  constructor(data?: number) {
+    if (!data) {
+      this.head = null;
+    } else {
+      this.head = new ListNode(data);
+    }
   }
 
   insert(data: number): void {
@@ -68,14 +72,14 @@ export class LinkedList {
   }
 }
 
-let myList: LinkedList = new LinkedList(8);
-myList.insert(16);
-myList.insert(32);
-myList.insert(64);
-myList.insert(2);
-myList.insert(4);
+// let myList: LinkedList = new LinkedList(8);
+// myList.insert(16);
+// myList.insert(32);
+// myList.insert(64);
+// myList.insert(2);
+// myList.insert(4);
 
-myList.remove(32);
-myList.insert(32);
+// myList.remove(32);
+// myList.insert(32);
 
-console.log("myList:", myList.toString());
+// console.log("myList:", myList.toString());
