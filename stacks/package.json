@@ -1,0 +1,14 @@
+{
+  "name": "stacks-queues",
+  "version": "1.0.0",
+  "author": "Bianca Pelegrini <bmpelegrini@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.7.3"
+  },
+  "scripts": {
+    "start": "yarn ts-node index.ts",
+    "start:file": "yarn ts-node"
+  }
+}
