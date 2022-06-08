@@ -96,7 +96,11 @@ class SetOfStacks {
       this.top = this.top.next;
       return this.top.pop();
     } else if (!this.top.isEmpty()) {
-      return this.top.pop();
+      let val = this.top.pop();
+      if (this.top.isEmpty() && this.top.next !== null) {
+        this.top = this.top.next;
+      }
+      return val;
     } else throw "empty stack";
   }
 
@@ -132,7 +136,6 @@ setStks.push(-2);
 setStks.push(3);
 setStks.push(29);
 
-setStks.pop();
 setStks.pop();
 setStks.pop();
 setStks.pop();
