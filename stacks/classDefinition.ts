@@ -1,69 +1,70 @@
 // pg 96
 
-export class Stack {
-  // if head is null, list is empty
-  // head: ListNode | null;
+export class StackNode {
+  val: number;
+  next: StackNode | null = null;
 
-  constructor(data?: number) {
-    // if (!data) {
-    //   this.head = null;
-    // } else {
-    //   this.head = new ListNode(data);
-    // }
+  constructor(val: number) {
+    this.val = val;
+  }
+}
+
+export class Stack {
+  // if top is null, list is empty
+  top: StackNode | null = null;
+
+  constructor(val?: number) {
+    if (val !== undefined) {
+      let node: StackNode = new StackNode(val);
+      node.next = this.top;
+      this.top = node;
+    } else {
+      this.top = null;
+    }
+  }
+
+  peek() {
+    if (this.top === null) throw "empty stack";
+    return this.top.val;
   }
 
   push(data: number): void {
-    // if (this.head === null) {
-    //   this.head = new ListNode(data);
-    //   return;
-    // }
-    // let curr = this.head;
-    // while (curr.next !== null) {
-    //   curr = curr.next;
-    // }
-    // curr.next = new ListNode(data);
+    let node = new StackNode(data);
+    node.next = this.top;
+    this.top = node;
   }
 
-  pop(data: number): void {
-    // if (this.head === null) return;
-    // if (this.head.data === data) {
-    //   this.head = this.head.next;
-    //   return;
-    // }
-    // let curr = this.head;
-    // while (curr.next !== null) {
-    //   if (curr.next.data === data) {
-    //     curr.next = curr.next.next;
-    //     return;
-    //   }
-    //   curr = curr.next;
-    // }
+  pop() {
+    if (this.top === null) throw "empty stack";
+    let val = this.top.val;
+    this.top = this.top.next;
+    return val;
   }
 
   isEmpty() {
-    // return this.head === null;
+    return this.top === null;
   }
 
   // generate string from stack in a friendlier way for better visualization
   toString() {
-    // let nodesData: number[] = [];
-    // let currNode: ListNode | null = this.head;
-    // while (currNode !== null) {
-    //   nodesData.push(currNode.data);
-    //   currNode = currNode.next;
-    // }
-    // return nodesData.join(" -> ");
+    let nodeVals: number[] = [];
+
+    let curr = this.top;
+    while (curr !== null) {
+      nodeVals.push(curr.val);
+      curr = curr.next;
+    }
+    return "top: " + nodeVals.join(", ");
   }
 }
 
-// let myList: LinkedList = new LinkedList(8);
-// myList.insert(16);
-// myList.insert(32);
-// myList.insert(64);
-// myList.insert(2);
-// myList.insert(4);
+let stk: Stack = new Stack(8);
+stk.push(16);
+stk.push(32);
+stk.push(32);
+stk.pop();
+stk.push(64);
+stk.push(2);
+stk.push(4);
 
-// myList.remove(32);
-// myList.insert(32);
-
-// console.log("myList:", myList.toString());
+console.log("stk:", stk.toString());
