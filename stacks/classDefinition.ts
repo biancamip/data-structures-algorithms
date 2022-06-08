@@ -58,13 +58,13 @@ export class Stack {
   }
 }
 
-let stk: Stack = new Stack(8);
-stk.push(16);
-stk.push(32);
-stk.push(32);
-stk.pop();
-stk.push(64);
-stk.push(2);
-stk.push(4);
+// let stk: Stack = new Stack(8);
+// stk.push(16);
+// stk.push(32);
+// stk.push(32);
+// stk.pop();
+// stk.push(64);
+// stk.push(2);
+// stk.push(4);
 
 // console.log("stk:", stk.toString());

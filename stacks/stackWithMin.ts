@@ -69,21 +69,21 @@ class StackMin {
   }
 }
 
-let stkMin: StackMin = new StackMin(8);
-stkMin.push(16);
-stkMin.push(32);
-stkMin.push(32);
-stkMin.pop();
-stkMin.push(64);
-stkMin.push(4);
-stkMin.push(-2);
-stkMin.push(4);
-console.log(`[stk] ${stkMin.toString()}\n [min] ${stkMin.min()} `);
+// let stkMin: StackMin = new StackMin(8);
+// stkMin.push(16);
+// stkMin.push(32);
+// stkMin.push(32);
+// stkMin.pop();
+// stkMin.push(64);
+// stkMin.push(4);
+// stkMin.push(-2);
+// stkMin.push(4);
+// console.log(`[stk] ${stkMin.toString()}\n [min] ${stkMin.min()} `);
 
-stkMin.push(-1);
-stkMin.push(80);
-stkMin.push(-2);
-stkMin.pop();
-console.log(`[stk] ${stkMin.toString()}\n [min] ${stkMin.min()} `);
+// stkMin.push(-1);
+// stkMin.push(80);
+// stkMin.push(-2);
+// stkMin.pop();
+// console.log(`[stk] ${stkMin.toString()}\n [min] ${stkMin.min()} `);
 
-console.log("print min", stkMin.printMin());
+// console.log("print min", stkMin.printMin());
