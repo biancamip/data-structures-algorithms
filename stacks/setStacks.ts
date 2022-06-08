@@ -1,6 +1,6 @@
 // 3.3
 
-import { StackNode } from "./classDefinition";
+import { StackNode } from "./stack";
 
 export class ThresholdStack {
   // if top is null, list is empty

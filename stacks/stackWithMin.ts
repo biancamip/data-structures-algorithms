@@ -1,4 +1,4 @@
-import { Stack, StackNode } from "./classDefinition";
+import { Stack, StackNode } from "./stack";
 
 class StackMin {
   // if top is null, list is empty
