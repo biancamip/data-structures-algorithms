@@ -24,7 +24,7 @@ Haven't decided if I am going to submit code to it yet
 | []     | 25     | Reverse Nodes in k-Group                               | Hard       | Facebook                                 |
 | 🇬🇧     | 26     | Remove Duplicates from Sorted Array                    | Easy       | Facebook                                 | Top Interview Question |
 | []     | 28     | Implement strStr()                                     | Easy       | Facebook                                 | Top Interview Question |
-| 🤔     | 33     | Search in Rotated Sorted Array                         | Medium     | LinkedIn, Uber, Facebook                 | Top Interview Question |
+| 🇬🇧     | 33     | Search in Rotated Sorted Array                         | Medium     | LinkedIn, Uber, Facebook                 | Top Interview Question |
 | []     | 38     | Count and Say                                          | Easy       | Facebook                                 | Top Interview Question |
 | []     | 43     | Multiply Strings                                       | Medium     | Facebook                                 |
 | []     | 44     | Wildcard Matching                                      | Hard       | Google, Facebook                         | Top Interview Question |
