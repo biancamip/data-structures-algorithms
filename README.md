@@ -39,7 +39,7 @@ Haven't decided if I am going to submit code to it yet
 | []     | 76     | Minimum Window Substring                               | Hard       | LinkedIn, Uber, Facebook                 | Top Interview Question |
 | 🇬🇧     | 78     | Subsets                                                | Medium     | Uber, Facebook                           | Top Interview Question |
 | 🇬🇧     | 79     | Word Search                                            | Medium     | Facebook                                 | Top Interview Question |
-| []     | 80     | Remove Duplicates from Sorted Array II                 | Medium     | Facebook                                 |
+| 🇬🇧     | 80     | Remove Duplicates from Sorted Array II                 | Medium     | Facebook                                 |
 | []     | 85     | Maximal Rectangle                                      | Hard       | Facebook                                 |
 | 🇬🇧     | 88     | Merge Sorted Array                                     | Easy       | Facebook                                 | Top Interview Question |
 | 🇬🇧     | 90     | Subsets II                                             | Medium     | Facebook                                 |
