@@ -45,7 +45,7 @@ Haven't decided if I am going to submit code to it yet
 | 🇬🇧     | 90     | Subsets II                                             | Medium     | Facebook                                 |
 | 🇬🇧     | 91     | Decode Ways                                            | Medium     | Uber, Facebook                           | Top Interview Question |
 | 🇬🇧     | 98     | Validate Binary Search Tree                            | Medium     | Facebook                                 | Top Interview Question |
-| []     | 102    | Binary Tree Level Order Traversal                      | Medium     | LinkedIn, Facebook                       | Top Interview Question |
+| 🇬🇧     | 102    | Binary Tree Level Order Traversal                      | Medium     | LinkedIn, Facebook                       | Top Interview Question |
 | []     | 117    | Populating Next Right Pointers in Each Node II         | Medium     | Facebook                                 |
 | 🇬🇧     | 121    | Best Time to Buy and Sell Stock                        | Easy       | Uber, Facebook                           | Top Interview Question |
 | []     | 125    | Valid Palindrome                                       | Easy       | Uber, Facebook                           | Top Interview Question |
