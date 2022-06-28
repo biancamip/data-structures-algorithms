@@ -1,14 +1,4 @@
-## Repo
-
-Haven't decided if I am going to submit code to it yet
-
 ## Questions
-
-👍 - Unlocked & Done
-😊 - Locked & Done
-🔒 - Locked & Not Done
-[] - Not yet Done
-
 🇬🇧 - done!
 🤔 - started/in progress
 
@@ -60,7 +50,7 @@ Haven't decided if I am going to submit code to it yet
 | []     | 168    | Excel Sheet Column Title                               | Easy       | Facebook                                 |
 | []     | 173    | Binary Search Tree Iterator                            | Medium     | LinkedIn, Google, Facebook               |
 | 🇬🇧     | 200    | Number of Islands                                      | Medium     | Google, Facebook                         | Top Interview Question |
-| []     | 206    | Reverse Linked List                                    | Easy       | Uber, Facebook                           | Top Interview Question |
+| 🇬🇧     | 206    | Reverse Linked List                                    | Easy       | Uber, Facebook                           | Top Interview Question |
 | 🇬🇧     | 208    | Implement Trie (Prefix Tree)                           | Medium     | Google, Uber, Facebook                   | Top Interview Question |
 | []     | 209    | Minimum Size Subarray Sum                              | Medium     | Facebook                                 |
 | 🤔     | 210    | Course Schedule II                                     | Medium     | Facebook                                 | Top Interview Question |
