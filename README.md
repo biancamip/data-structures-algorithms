@@ -19,7 +19,7 @@
 | []     | 43     | Multiply Strings                                       | Medium     | Facebook                                 |
 | []     | 44     | Wildcard Matching                                      | Hard       | Google, Facebook                         | Top Interview Question |
 | 🇬🇧     | 49     | Group Anagrams                                         | Medium     | Uber, Facebook                           | Top Interview Question |
-| []     | 50     | Pow(x, n)                                              | Medium     | LinkedIn, Google, Facebook               | Top Interview Question |
+| 🇬🇧     | 50     | Pow(x, n)                                              | Medium     | LinkedIn, Google, Facebook               | Top Interview Question |
 | 🇬🇧     | 56     | Merge Intervals                                        | Medium     | LinkedIn, Google, Facebook               | Top Interview Question |
 | []     | 57     | Insert Interval                                        | Hard       | LinkedIn, Google, Facebook               |
 | 🇬🇧     | 67     | Add Binary                                             | Easy       | Facebook                                 |
@@ -38,7 +38,7 @@
 | 🇬🇧     | 102    | Binary Tree Level Order Traversal                      | Medium     | LinkedIn, Facebook                       | Top Interview Question |
 | []     | 117    | Populating Next Right Pointers in Each Node II         | Medium     | Facebook                                 |
 | 🇬🇧     | 121    | Best Time to Buy and Sell Stock                        | Easy       | Uber, Facebook                           | Top Interview Question |
-| []     | 125    | Valid Palindrome                                       | Easy       | Uber, Facebook                           | Top Interview Question |
+| 🇬🇧     | 125    | Valid Palindrome                                       | Easy       | Uber, Facebook                           | Top Interview Question |
 | []     | 127    | Word Ladder                                            | Medium     | LinkedIn, Facebook                       | Top Interview Question |
 | []     | 128    | Longest Consecutive Sequence                           | Hard       | Google, Facebook                         | Top Interview Question |
 | []     | 133    | Clone Graph                                            | Medium     | Google, Uber, Facebook                   |
